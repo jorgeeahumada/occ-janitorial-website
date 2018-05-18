@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+}
+#hero-background{
+    background: url(../images/nature-hero.jpg) 50% no-repeat; /* sets the images as background*/
+    background-size: cover; /* sets the image to be the same size as the div */
+    height:70vh; /* sets the image to a little more than half the page so the reade knows that they should scroll*/
+    /* the next o3 make sure the div touches the top the left and the right side */
+    top:0;
+    left:0;
+    right:0;
+    display:flex; /* allows the cotainer to change size to better fit the screen */
+}
+
+#catch-phrase{
+    font-size: 5vh;
+    font-weight: 700;
+    color:#ffffff;
+
+}
+
+#call-to-action{
+    font-weight: 600;
+}
+
+#service-guarantee-container{
+    padding: .5vh 5vw .5vh 5vw;
+    width:90vw;
+}
+
+
+#service-guarantee-text{
+    float:right;
+    width:40vw;
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.75vh;
+
+}

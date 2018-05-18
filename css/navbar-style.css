@@ -1,0 +1,29 @@
+#navbar-container{
+    /* makes sure the navbar touches both sides of the screen and the top */
+    top:0;
+    left:0;
+    right:0;
+    width:100vw; /* stes the navbar to the whole width of the screen */
+    height: 10vh;
+
+
+}
+
+#navbar-container .grid-x{
+    background-color: rgba(89,122,35,0.5);
+    /*sets the inside container to the size of the parent container */
+    height:100%;
+    width:100%;
+    padding: 0 20% 0 10%; /* gives the container some distance from the left and right */
+    align-content: center;
+}
+
+.navlink{
+    /* the next few make the text easier to read */
+    font-weight: 600; /* makes the text heavier than normal */
+    font-size: 3vh; /* makes the text bigger */
+    color: #ffffff;
+}
+.navlink:hover{
+    color:#164c46;
+}
